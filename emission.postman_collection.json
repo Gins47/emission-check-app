@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "0ef63dc5-de0c-43fe-9981-51c336a4660a",
+		"name": "emission",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4706367"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/filter?startDate=2020-01-01T00:00:00Z&endDate=2020-09-01T00:00:00Z&average=0.0002",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"filter"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2020-01-01T00:00:00Z"
+						},
+						{
+							"key": "endDate",
+							"value": "2020-09-01T00:00:00Z"
+						},
+						{
+							"key": "average",
+							"value": "0.0002"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
