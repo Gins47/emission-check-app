@@ -1,8 +1,5 @@
 # backend-nodejs-challenge
 
-Welcome to the AMPEERS Energy Backend challenge.
-This challenge consists of 4 main tasks.
-
 ## Time
 
 You have 120+ minutes time to solve the tasks of the challenge.
